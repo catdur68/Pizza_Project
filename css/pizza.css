@@ -1,0 +1,87 @@
+/* '#' in css is used to assign a class to a control having the same id as class name.
+in this case we have a menu id and menu class*/
+body {
+    background-color: black;
+}
+h1 {
+    font-family: cursive;
+    color: rgb(236, 236, 68);
+    margin: 0 0px 0 20px;
+    padding: 0 0 0 100px;
+}
+h3 {
+    font-family: cursive;
+    color: tomato;
+}
+
+div {
+    font-family: cursive;
+    color: wheat;
+}
+
+
+
+
+
+#menuBG {
+    width: 750px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+.left {/* because of the # we don't have to say menu*/
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.middle {/* because of the # we don't have to say menu*/
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {/*right half*/
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+
+#frmMenu {
+    width: 600px;
+    height: 225px;
+}
+
+#totalPrice {
+
+    width: 200px;
+    height: 190px;
+    margin: 75px auto 0 auto;
+    float: right;
+    text-align: center;
+}
+
+#showText {
+    width: 200px;
+    height: 225px;
+    margin: 50px auto;
+    float: left;
+    position: relative;
+
+}
+
+#cart {
+    top: 0; 
+    margin: 0px auto;
+    width: 400px;
+    height: 250px;
+}
+
+#btnOrder {
+    margin: 10px 100px 0px 100px;
+    position: relative;
+    left: 100px;
+    
+    width: 100px;
+    height: 40px;
+}
